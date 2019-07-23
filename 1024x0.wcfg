@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="115526980307fs"></ZoomEndTime>
+      <Cursor1Time time="40549285000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="169"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ADC_sdata0" type="logic">
+      <obj_property name="ElementShortName">ADC_sdata0</obj_property>
+      <obj_property name="ObjectShortName">ADC_sdata0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ADC_sdata1" type="logic">
+      <obj_property name="ElementShortName">ADC_sdata1</obj_property>
+      <obj_property name="ObjectShortName">ADC_sdata1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ADC_sclk" type="logic">
+      <obj_property name="ElementShortName">ADC_sclk</obj_property>
+      <obj_property name="ObjectShortName">ADC_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ADC_csn" type="logic">
+      <obj_property name="ElementShortName">ADC_csn</obj_property>
+      <obj_property name="ObjectShortName">ADC_csn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/data0" type="array">
+      <obj_property name="ElementShortName">data0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data0[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/data1" type="array">
+      <obj_property name="ElementShortName">data1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fft_real1" type="array">
+      <obj_property name="ElementShortName">fft_real1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_real1[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fft_real2" type="array">
+      <obj_property name="ElementShortName">fft_real2[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_real2[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fft_out_valid1" type="logic">
+      <obj_property name="ElementShortName">fft_out_valid1</obj_property>
+      <obj_property name="ObjectShortName">fft_out_valid1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fft_imag1" type="array">
+      <obj_property name="ElementShortName">fft_imag1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_imag1[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fft_imag2" type="array">
+      <obj_property name="ElementShortName">fft_imag2[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_imag2[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fft_out_valid2" type="logic">
+      <obj_property name="ElementShortName">fft_out_valid2</obj_property>
+      <obj_property name="ObjectShortName">fft_out_valid2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/amp1" type="array">
+      <obj_property name="ElementShortName">amp1[46:0]</obj_property>
+      <obj_property name="ObjectShortName">amp1[46:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/amp2" type="array">
+      <obj_property name="ElementShortName">amp2[46:0]</obj_property>
+      <obj_property name="ObjectShortName">amp2[46:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Pattern" type="array">
+      <obj_property name="ElementShortName">Pattern[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Pattern[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk_period" type="array">
+      <obj_property name="ElementShortName">clk_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_period[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk_half_period" type="array">
+      <obj_property name="ElementShortName">clk_half_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_half_period[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/period_data" type="array">
+      <obj_property name="ElementShortName">period_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/data_num" type="array">
+      <obj_property name="ElementShortName">data_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_num[31:0]</obj_property>
+   </wvobject>
+</wave_config>
